@@ -55,7 +55,7 @@
 	client: {
 		renderer: "Shape",
 		shape: { base: "entity/animal/mammal/bear/{type}-{age}" },
-		texture: { base: "entity/animal/mammal/bear/{type}-{age}*" },
+		texture: { base: "game:entity/animal/mammal/bear/brown-{age}*" },
 		sizeByType: {
 			"*-female": 0.95,
 			"*-male": 1.05
