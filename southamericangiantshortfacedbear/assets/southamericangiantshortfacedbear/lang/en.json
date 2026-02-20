@@ -1,3 +1,26 @@
 {
-    "hello": "hello world!"
+  "item-creature-bear-shortface-adult-female": "South American Giant Short Faced Bear  (female)",
+  "item-creature-bear-shortface-adult-male": "South American Giant Short Faced Bear (male)",
+
+  "item-dead-creature-bear-polar-adult-female": "Dead femalesouth american giant short faced bear",
+  "item-dead-creature-bear-polar-adult-male": "Dead malesouth american giant short faced bear",
+
+  "prefixandcreature-bear-polar-adult-*": "asouth american giant short facedbear",
+
+
+
+  "deathmsg-bearpolaradultmale-1": "Player {0} made a fine south american giant short faced meal.",
+  "deathmsg-bearpolaradultmale-2": "Player {0} was mistaken for a seal.",
+  "deathmsg-bearpolaradultmale-3": "Player {0} found out that south american giant short faced bears are dangerous.",
+
+
+  "deathmsg-bearpolaradultfemale-1": "Player {0} made a fine south american giant short faced meal.",
+  "deathmsg-bearpolaradultfemale-2": "Player {0} was mistaken for a seal.",
+  "deathmsg-bearpolaradultfemale-3": "Player {0} found out that south american giant short faced bears are dangerous.",
+
+  "creaturegroup-bear-polar": "South American Giant Short Faced bear",
+
+  "creaturegroup-bear-polar-adult": "Adultsouth american giant short facedbear",
+  "creaturegroup-bear-polar-baby": "South American Giant Short Faced bear cub"
+
 }
