@@ -1,0 +1,49 @@
+{
+	code: "creature",
+	class: "ItemCreature",
+	maxstacksize: 64,
+	variantgroups: [
+		{ code: "type", states: [
+				"bear-shortface-adult-female",
+				"bear-shortface-adult-male",
+		  ] }
+	],
+	renderAlphaTestByType: {
+		"creature-bear-*": 0.75
+	},
+	shapeByType: {
+		"creature-bear-shortface-*": { base: "entity/animal/mammal/bear/shortface-adult" }
+	},
+	texturesByType: {
+		"creature-bear-shortface-adult-*": { "skin": { base: "game:entity/animal/mammal/bear/brown-adult1" }}
+	},
+	creativeinventory: {
+		"general": [ "*" ],
+		"items": [ "*" ],
+		"creatures": [ "*" ],
+		"southamericangiantshortfacedbear": [ "*" ]
+	},
+	materialDensity: 600,
+	heldTpIdleAnimation: "holdbothhands",
+	guiTransformByType: {
+		"creature-bear-*": {
+			rotate: true,
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 180, y: -115, z: 6 },
+			origin: { x: 0.5, y: 0.74, z: 0.5 },
+			scale: 0.8
+		}
+	},	
+	tpHandTransformByType: {
+		"creature-bear-*": 	{
+			translation: { x: -0.7, y: -0.8, z: -0.6 },
+			rotation: { x: 1, y: 172, z: 26 },
+			scale: 0.44
+		}
+	},
+	groundTransformByType: {
+		"creature-bear-*": {
+			translation: { x: 0, y: 0.1, z: 0 }
+		}
+	}
+}
